@@ -8,6 +8,7 @@ import NewOrder from "./pages/order/NewOrder";
 import OrderDetails from "./pages/order/OrderDetails";
 import Cart from "./pages/cart/Cart";
 import Home from "./pages/Home";
+import { GlobalStyle } from "./assests/styles/GlobalStyle";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+    <GlobalStyle/>
       <RouterProvider router={router} />
      
     </>

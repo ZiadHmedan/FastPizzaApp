@@ -1,3 +1,3 @@
 export default function CartOverview() {
-  return <div>CartOverview if cart empty dont show this</div>;
+  return <div className="cart-overview">CartOverview if cart empty dont show this</div>;
 }
